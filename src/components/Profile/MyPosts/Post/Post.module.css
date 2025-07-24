@@ -1,0 +1,26 @@
+.item{
+	color: palegreen;
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 100px;
+	background-color: purple;
+	max-width: 100%;
+}
+
+.item img{
+	transform:translateY(15px);
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	padding-right: 4px;
+}
+
+.postLikes{
+	margin-top: 20px;
+	color:plum;
+	font-weight: 500;
+	cursor: pointer;
+}
+.postLikes:hover{
+	color:rgb(255, 99, 255);
+}

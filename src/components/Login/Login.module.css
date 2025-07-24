@@ -1,0 +1,22 @@
+.login{
+	text-align: center;
+}
+.in_log, .in_pass{
+	margin-top: 10px;
+	outline: none;
+	width:250px;
+}
+.in_pass{
+	margin-top: 20px;
+}
+.btn{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px 100px;
+	border-radius: 10px;
+	background-color: chartreuse;
+	transition:background-color ease-in-out 200ms;
+}
+.btn:hover{
+	background-color: cadetblue;
+}

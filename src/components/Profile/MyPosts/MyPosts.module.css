@@ -1,0 +1,30 @@
+.posts {
+	margin-top: 20px;
+}
+.title {
+	/* color:blueviolet; */
+	font-size: 30px;
+	text-align: center;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-left: 250px;
+	width: 400px;
+	padding: 10px 20px;
+	background-color: blueviolet;
+	color:white;
+	border:none;
+	border-radius: 10px;
+	transition: background-color 500ms ease-in-out;
+}
+
+
+.btn:hover{
+	background-color: purple;
+}
+
+.textarea{
+	margin-inline: 30px;
+	width: 90%;
+}

@@ -1,0 +1,33 @@
+.selectedPage {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	background: white;
+}
+.default{
+	color:white;
+	padding: 5px;
+	background: black;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pagination{
+	padding: 10px;
+	text-align: center;
+}
+
+.next_prev {
+	margin: 5px;
+	padding: 10px;
+	background-color:lightpink;
+	font-size: 20px;
+	color:white;
+	transition: background-color 500ms ease-in-out;
+}
+
+.next_prev:hover{
+	background-color: lightseagreen;
+}

@@ -1,0 +1,72 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 1.5fr 8fr;
+}
+
+.dialogsItems{
+	padding: 20px;
+	background-color: palevioletred;
+}
+
+.dialog{
+	font-size: 18px;
+	font-weight: 500;
+	color:white;
+	text-decoration: none;
+}
+
+.active{
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+}
+.image{
+	margin-right: 5px;
+	transform: translateY(15px);
+}
+.messages{
+	padding: 20px;
+	display:flex;
+	flex-direction: column;
+}
+
+.message {
+	font-size: 18px;
+	font-weight: 500;
+	color:white;
+}
+
+.image {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.me{
+	display: flex;
+	justify-content: end;
+	font-weight: 800;
+	color: purple;
+}
+
+.companion{
+	font-weight: 700;
+}
+
+.textarea{
+	margin-top: 20px;
+}
+
+.btn{
+	width: 200px;
+	padding: 10px 20px;
+	background-color: blueviolet;
+	color:white;
+	border:none;
+	border-radius: 10px;
+	transition: background-color 500ms ease-in-out;
+}
+
+.btn:hover{
+	background-color: purple;
+}
